@@ -1,0 +1,32 @@
+{
+	"manifest_version" : 2,
+	"name": "Notes",
+	"version" : "1.0",
+	"description" : "Notes",
+	"icons" : {
+		// "dimension":"icons _path"
+	},
+	"permissions" : [
+		"activeTab",
+		"storage",
+		"notifications"
+	],
+	"browser_actions" : {
+		"default_icon":"pah_to_icon",
+		"default_title" : "Notes",
+		"default_popup" : "_path_to_html"
+	},
+
+	// any script to be injected in page(Not Required)
+	"content_scripts": [
+		{
+			// "matches":["..."],
+			// "js" : ["bor.js"] 			
+		}
+	],
+
+	//Anything we want uor page to access (Not Required)
+	"web_accessible_resources":[
+
+	]
+}
