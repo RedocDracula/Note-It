@@ -2,5 +2,4 @@
 Sticky Notes for webpages
 
 
-Swamil U Gey
-No U
+Yajur U Gey
